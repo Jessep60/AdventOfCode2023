@@ -31,11 +31,6 @@ Console.WriteLine(finalAnswer.ToString());
 
 int SearchStringForNum(string input, SearchType searchType)
 {
-    if (input == "5tpbsrf")
-    {
-        Console.WriteLine();
-    }
-
     if (searchType == SearchType.Last)
     {
         input = new string(input.Reverse().ToArray());
